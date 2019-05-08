@@ -1,0 +1,75 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <SDL/SDL.h>
+#include <SDL/SDL_image.h>
+#include <SDL/SDL_mixer.h>
+#include <SDL/SDL_ttf.h>
+#include"struct.h"
+int animation_perso(hero evan){
+
+
+	int farm=evan.farm;
+	switch(evan.mouvment){
+
+		case 1:
+				if (farm<8)
+					farm++;
+				else farm=0;
+				//usleep(30000);
+			
+			break;
+		case 2:
+				if (farm<8)
+					farm++;
+				else farm=0;			
+				
+				//usleep(20000);
+			
+			break;
+		case 3:
+			if (farm<8)
+					farm++;
+				else farm=0;			
+				
+				//usleep(20000);
+			
+			break;
+		default: farm=0;
+	}
+	return farm;
+}
+
+
+int animation_perso2(hero evan){
+
+
+	int farm=evan.farm;
+	switch(evan.mouvment){
+
+		case 11:
+				if (farm<8)
+					farm++;
+				else farm=0;
+				//usleep(30000);
+			
+			break;
+		case 22:
+				if (farm<8)
+					farm++;
+				else farm=0;			
+				
+				//usleep(20000);
+			
+			break;
+		case 33:
+			if (farm<8)
+					farm++;
+				else farm=0;			
+				
+				//usleep(20000);
+			
+			break;
+		default: farm=0;
+	}
+	return farm;
+}
