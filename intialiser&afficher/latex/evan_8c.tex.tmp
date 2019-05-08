@@ -1,0 +1,79 @@
+\hypertarget{evan_8c}{}\section{evan.\+c File Reference}
+\label{evan_8c}\index{evan.\+c@{evan.\+c}}
+
+
+initiate and show main character.  
+
+
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$S\+D\+L/\+S\+D\+L.\+h$>$}\newline
+{\ttfamily \#include $<$S\+D\+L/\+S\+D\+L\+\_\+image.\+h$>$}\newline
+{\ttfamily \#include $<$S\+D\+L/\+S\+D\+L\+\_\+mixer.\+h$>$}\newline
+{\ttfamily \#include $<$S\+D\+L/\+S\+D\+L\+\_\+ttf.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}struct.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$time.\+h$>$}\newline
+Include dependency graph for evan.\+c\+:
+% FIG 0
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{evan_8c_ab9275e967a36c72801dfbdebb587bb3e}{initialiser\+\_\+evan} (\hyperlink{structhero}{hero} $\ast$evan)
+\begin{DoxyCompactList}\small\item\em To initiate main character evan . \end{DoxyCompactList}\item 
+void \hyperlink{evan_8c_ac15f45b330c018ab42a1ef7c8f45fa20}{afficher\+\_\+evan} (\hyperlink{structhero}{hero} evan, S\+D\+L\+\_\+\+Surface $\ast$ecran)
+\begin{DoxyCompactList}\small\item\em To show main character evan . \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+initiate and show main character. 
+
+\begin{DoxyAuthor}{Author}
+X Team 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+May 05, 2019 
+\end{DoxyDate}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{evan_8c_ac15f45b330c018ab42a1ef7c8f45fa20}\label{evan_8c_ac15f45b330c018ab42a1ef7c8f45fa20}} 
+\index{evan.\+c@{evan.\+c}!afficher\+\_\+evan@{afficher\+\_\+evan}}
+\index{afficher\+\_\+evan@{afficher\+\_\+evan}!evan.\+c@{evan.\+c}}
+\subsubsection{\texorpdfstring{afficher\+\_\+evan()}{afficher\_evan()}}
+{\footnotesize\ttfamily void afficher\+\_\+evan (\begin{DoxyParamCaption}\item[{\hyperlink{structhero}{hero}}]{evan,  }\item[{S\+D\+L\+\_\+\+Surface $\ast$}]{ecran }\end{DoxyParamCaption})}
+
+
+
+To show main character evan . 
+
+
+\begin{DoxyParams}{Parameters}
+{\em evan} & the main character \\
+\hline
+{\em ecran} & the screen \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Nothing 
+\end{DoxyReturn}
+\mbox{\Hypertarget{evan_8c_ab9275e967a36c72801dfbdebb587bb3e}\label{evan_8c_ab9275e967a36c72801dfbdebb587bb3e}} 
+\index{evan.\+c@{evan.\+c}!initialiser\+\_\+evan@{initialiser\+\_\+evan}}
+\index{initialiser\+\_\+evan@{initialiser\+\_\+evan}!evan.\+c@{evan.\+c}}
+\subsubsection{\texorpdfstring{initialiser\+\_\+evan()}{initialiser\_evan()}}
+{\footnotesize\ttfamily void initialiser\+\_\+evan (\begin{DoxyParamCaption}\item[{\hyperlink{structhero}{hero} $\ast$}]{evan }\end{DoxyParamCaption})}
+
+
+
+To initiate main character evan . 
+
+
+\begin{DoxyParams}{Parameters}
+{\em evan} & main character \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Nothing 
+\end{DoxyReturn}
