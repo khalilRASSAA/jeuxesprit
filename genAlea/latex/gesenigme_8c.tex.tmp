@@ -1,0 +1,77 @@
+\hypertarget{gesenigme_8c}{}\section{gesenigme.\+c File Reference}
+\label{gesenigme_8c}\index{gesenigme.\+c@{gesenigme.\+c}}
+
+
+randomize enigma.  
+
+
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$S\+D\+L/\+S\+D\+L.\+h$>$}\newline
+{\ttfamily \#include $<$S\+D\+L/\+S\+D\+L\+\_\+image.\+h$>$}\newline
+{\ttfamily \#include $<$S\+D\+L/\+S\+D\+L\+\_\+ttf.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}struct.\+h\char`\"{}}\newline
+Include dependency graph for gesenigme.\+c\+:
+% FIG 0
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{gesenigme_8c_acbaa0047c7234a26ec1a5fef29bcbd44}{randomquiz} (\hyperlink{structenigme}{enigme} $\ast$enig)
+\begin{DoxyCompactList}\small\item\em To randomize enigma . \end{DoxyCompactList}\item 
+int \hyperlink{gesenigme_8c_ae375aef424406cfd9713291a3fb538bd}{correctrep} (\hyperlink{structenigme}{enigme} $\ast$enig, char nom\+\_\+fichier\mbox{[}$\,$\mbox{]})
+\begin{DoxyCompactList}\small\item\em To get the right answer for the random enigma . \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+randomize enigma. 
+
+\begin{DoxyAuthor}{Author}
+X Team 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+May 05, 2019 
+\end{DoxyDate}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{gesenigme_8c_ae375aef424406cfd9713291a3fb538bd}\label{gesenigme_8c_ae375aef424406cfd9713291a3fb538bd}} 
+\index{gesenigme.\+c@{gesenigme.\+c}!correctrep@{correctrep}}
+\index{correctrep@{correctrep}!gesenigme.\+c@{gesenigme.\+c}}
+\subsubsection{\texorpdfstring{correctrep()}{correctrep()}}
+{\footnotesize\ttfamily int correctrep (\begin{DoxyParamCaption}\item[{\hyperlink{structenigme}{enigme} $\ast$}]{enig,  }\item[{char}]{nom\+\_\+fichier\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+To get the right answer for the random enigma . 
+
+
+\begin{DoxyParams}{Parameters}
+{\em enig} & the enigma \\
+\hline
+{\em nom\+\_\+fichier} & the name of txt file \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+right answer 
+\end{DoxyReturn}
+\mbox{\Hypertarget{gesenigme_8c_acbaa0047c7234a26ec1a5fef29bcbd44}\label{gesenigme_8c_acbaa0047c7234a26ec1a5fef29bcbd44}} 
+\index{gesenigme.\+c@{gesenigme.\+c}!randomquiz@{randomquiz}}
+\index{randomquiz@{randomquiz}!gesenigme.\+c@{gesenigme.\+c}}
+\subsubsection{\texorpdfstring{randomquiz()}{randomquiz()}}
+{\footnotesize\ttfamily void randomquiz (\begin{DoxyParamCaption}\item[{\hyperlink{structenigme}{enigme} $\ast$}]{enig }\end{DoxyParamCaption})}
+
+
+
+To randomize enigma . 
+
+
+\begin{DoxyParams}{Parameters}
+{\em enig} & the enigma \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Nothing 
+\end{DoxyReturn}

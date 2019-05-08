@@ -1,3 +1,11 @@
+/**
+* @file evan.c
+* @brief initiate and show main character.
+* @author X Team
+* @version 1
+* @date May 05, 2019
+*
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <SDL/SDL.h>
@@ -6,6 +14,11 @@
 #include <SDL/SDL_ttf.h>
 #include"struct.h"
 #include <time.h>
+/**
+* @brief To initiate main character evan .
+* @param evan main character
+* @return Nothing
+*/
 void initialiser_evan(hero *evan){
 		
 		//evan->afficher_hero=NULL;
@@ -69,6 +82,12 @@ void initialiser_evan(hero *evan){
 
 	evan->vx =evan->vy = 0.0f;
 }
+/**
+* @brief To show main character evan .
+* @param evan the main character
+* @param ecran the screen
+* @return Nothing
+*/
 void afficher_evan(hero evan,SDL_Surface *ecran){
 	if ((evan.mouvment==1)||(evan.mouvment==9))
 		SDL_BlitSurface(evan.afficher_hero[evan.farm],NULL,ecran,&(evan.pos_hero2));

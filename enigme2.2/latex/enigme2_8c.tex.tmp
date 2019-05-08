@@ -1,0 +1,192 @@
+\hypertarget{enigme2_8c}{}\section{enigme2.\+c File Reference}
+\label{enigme2_8c}\index{enigme2.\+c@{enigme2.\+c}}
+
+
+enigma 2.  
+
+
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$S\+D\+L/\+S\+D\+L.\+h$>$}\newline
+{\ttfamily \#include $<$S\+D\+L/\+S\+D\+L\+\_\+image.\+h$>$}\newline
+{\ttfamily \#include $<$S\+D\+L/\+S\+D\+L\+\_\+mixer.\+h$>$}\newline
+{\ttfamily \#include $<$S\+D\+L/\+S\+D\+L\+\_\+ttf.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}enigme2.\+h\char`\"{}}\newline
+Include dependency graph for enigme2.\+c\+:
+% FIG 0
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+S\+D\+L\+\_\+\+Color \hyperlink{enigme2_8c_a2fb9b6ab55879257b0d74bd5cd2eae61}{Get\+Pixel} (S\+D\+L\+\_\+\+Surface $\ast$surface, int x, int y)
+\begin{DoxyCompactList}\small\item\em To get color of a position . \end{DoxyCompactList}\item 
+void \hyperlink{enigme2_8c_ae10a681205d8d21e26f0e02272e560d7}{writeqs} (S\+D\+L\+\_\+\+Surface $\ast$ecran, char qus\mbox{[}$\,$\mbox{]})
+\begin{DoxyCompactList}\small\item\em To write the question . \end{DoxyCompactList}\item 
+void \hyperlink{enigme2_8c_acf97b3ac597a89902fbba6f2b6a0b354}{writeqs2} (S\+D\+L\+\_\+\+Surface $\ast$ecran, char qus\mbox{[}$\,$\mbox{]})
+\begin{DoxyCompactList}\small\item\em To write the question . \end{DoxyCompactList}\item 
+int \hyperlink{enigme2_8c_a96d93da90a5bea806beac28d836c0aa6}{collision\+\_\+\+Parfaiteenigme} (S\+D\+L\+\_\+\+Surface $\ast$calque, int x, int y)
+\begin{DoxyCompactList}\small\item\em To return a number when there is collusion with a color . \end{DoxyCompactList}\item 
+void \hyperlink{enigme2_8c_a3fd90740b8eeae3e303bdfa62e4f9dd9}{initialiser\+\_\+enigme2} (\hyperlink{structenigme2}{enigme2} $\ast$enig)
+\begin{DoxyCompactList}\small\item\em to initiate the enigma . \end{DoxyCompactList}\item 
+void \hyperlink{enigme2_8c_a62516550fd9026d7c6d610b48fc804d7}{afficher\+\_\+enigme2} (\hyperlink{structenigme2}{enigme2} enig, S\+D\+L\+\_\+\+Surface $\ast$ecran)
+\begin{DoxyCompactList}\small\item\em to initiate the enigma . \end{DoxyCompactList}\item 
+void \hyperlink{enigme2_8c_a711afe39081e6ebe978f5e2c28f187e8}{resolution\+\_\+enigme2} (\hyperlink{structenigme2}{enigme2} $\ast$enig, S\+D\+L\+\_\+\+Surface $\ast$ecran)
+\begin{DoxyCompactList}\small\item\em to solve the enigma . \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+enigma 2. 
+
+\begin{DoxyAuthor}{Author}
+X Team 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+May 05, 2019 
+\end{DoxyDate}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{enigme2_8c_a62516550fd9026d7c6d610b48fc804d7}\label{enigme2_8c_a62516550fd9026d7c6d610b48fc804d7}} 
+\index{enigme2.\+c@{enigme2.\+c}!afficher\+\_\+enigme2@{afficher\+\_\+enigme2}}
+\index{afficher\+\_\+enigme2@{afficher\+\_\+enigme2}!enigme2.\+c@{enigme2.\+c}}
+\subsubsection{\texorpdfstring{afficher\+\_\+enigme2()}{afficher\_enigme2()}}
+{\footnotesize\ttfamily void afficher\+\_\+enigme2 (\begin{DoxyParamCaption}\item[{\hyperlink{structenigme2}{enigme2}}]{enig,  }\item[{S\+D\+L\+\_\+\+Surface $\ast$}]{ecran }\end{DoxyParamCaption})}
+
+
+
+to initiate the enigma . 
+
+
+\begin{DoxyParams}{Parameters}
+{\em enig} & \\
+\hline
+{\em ecran} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+nothing 
+\end{DoxyReturn}
+\mbox{\Hypertarget{enigme2_8c_a96d93da90a5bea806beac28d836c0aa6}\label{enigme2_8c_a96d93da90a5bea806beac28d836c0aa6}} 
+\index{enigme2.\+c@{enigme2.\+c}!collision\+\_\+\+Parfaiteenigme@{collision\+\_\+\+Parfaiteenigme}}
+\index{collision\+\_\+\+Parfaiteenigme@{collision\+\_\+\+Parfaiteenigme}!enigme2.\+c@{enigme2.\+c}}
+\subsubsection{\texorpdfstring{collision\+\_\+\+Parfaiteenigme()}{collision\_Parfaiteenigme()}}
+{\footnotesize\ttfamily int collision\+\_\+\+Parfaiteenigme (\begin{DoxyParamCaption}\item[{S\+D\+L\+\_\+\+Surface $\ast$}]{calque,  }\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})}
+
+
+
+To return a number when there is collusion with a color . 
+
+
+\begin{DoxyParams}{Parameters}
+{\em calque} & \\
+\hline
+{\em x} & position \\
+\hline
+{\em y} & position \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+1 or 2 or 3 or 0 
+\end{DoxyReturn}
+\mbox{\Hypertarget{enigme2_8c_a2fb9b6ab55879257b0d74bd5cd2eae61}\label{enigme2_8c_a2fb9b6ab55879257b0d74bd5cd2eae61}} 
+\index{enigme2.\+c@{enigme2.\+c}!Get\+Pixel@{Get\+Pixel}}
+\index{Get\+Pixel@{Get\+Pixel}!enigme2.\+c@{enigme2.\+c}}
+\subsubsection{\texorpdfstring{Get\+Pixel()}{GetPixel()}}
+{\footnotesize\ttfamily S\+D\+L\+\_\+\+Color Get\+Pixel (\begin{DoxyParamCaption}\item[{S\+D\+L\+\_\+\+Surface $\ast$}]{surface,  }\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})}
+
+
+
+To get color of a position . 
+
+
+\begin{DoxyParams}{Parameters}
+{\em surface} & \\
+\hline
+{\em x} & \\
+\hline
+{\em y} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+color 
+\end{DoxyReturn}
+\mbox{\Hypertarget{enigme2_8c_a3fd90740b8eeae3e303bdfa62e4f9dd9}\label{enigme2_8c_a3fd90740b8eeae3e303bdfa62e4f9dd9}} 
+\index{enigme2.\+c@{enigme2.\+c}!initialiser\+\_\+enigme2@{initialiser\+\_\+enigme2}}
+\index{initialiser\+\_\+enigme2@{initialiser\+\_\+enigme2}!enigme2.\+c@{enigme2.\+c}}
+\subsubsection{\texorpdfstring{initialiser\+\_\+enigme2()}{initialiser\_enigme2()}}
+{\footnotesize\ttfamily void initialiser\+\_\+enigme2 (\begin{DoxyParamCaption}\item[{\hyperlink{structenigme2}{enigme2} $\ast$}]{enig }\end{DoxyParamCaption})}
+
+
+
+to initiate the enigma . 
+
+
+\begin{DoxyParams}{Parameters}
+{\em enig} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+nothing 
+\end{DoxyReturn}
+\mbox{\Hypertarget{enigme2_8c_a711afe39081e6ebe978f5e2c28f187e8}\label{enigme2_8c_a711afe39081e6ebe978f5e2c28f187e8}} 
+\index{enigme2.\+c@{enigme2.\+c}!resolution\+\_\+enigme2@{resolution\+\_\+enigme2}}
+\index{resolution\+\_\+enigme2@{resolution\+\_\+enigme2}!enigme2.\+c@{enigme2.\+c}}
+\subsubsection{\texorpdfstring{resolution\+\_\+enigme2()}{resolution\_enigme2()}}
+{\footnotesize\ttfamily void resolution\+\_\+enigme2 (\begin{DoxyParamCaption}\item[{\hyperlink{structenigme2}{enigme2} $\ast$}]{enig,  }\item[{S\+D\+L\+\_\+\+Surface $\ast$}]{ecran }\end{DoxyParamCaption})}
+
+
+
+to solve the enigma . 
+
+
+\begin{DoxyParams}{Parameters}
+{\em enig} & \\
+\hline
+{\em ecran} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+nothing 
+\end{DoxyReturn}
+\mbox{\Hypertarget{enigme2_8c_ae10a681205d8d21e26f0e02272e560d7}\label{enigme2_8c_ae10a681205d8d21e26f0e02272e560d7}} 
+\index{enigme2.\+c@{enigme2.\+c}!writeqs@{writeqs}}
+\index{writeqs@{writeqs}!enigme2.\+c@{enigme2.\+c}}
+\subsubsection{\texorpdfstring{writeqs()}{writeqs()}}
+{\footnotesize\ttfamily void writeqs (\begin{DoxyParamCaption}\item[{S\+D\+L\+\_\+\+Surface $\ast$}]{ecran,  }\item[{char}]{qus\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+To write the question . 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ecran} & \\
+\hline
+{\em qus} & the question \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+nothing 
+\end{DoxyReturn}
+\mbox{\Hypertarget{enigme2_8c_acf97b3ac597a89902fbba6f2b6a0b354}\label{enigme2_8c_acf97b3ac597a89902fbba6f2b6a0b354}} 
+\index{enigme2.\+c@{enigme2.\+c}!writeqs2@{writeqs2}}
+\index{writeqs2@{writeqs2}!enigme2.\+c@{enigme2.\+c}}
+\subsubsection{\texorpdfstring{writeqs2()}{writeqs2()}}
+{\footnotesize\ttfamily void writeqs2 (\begin{DoxyParamCaption}\item[{S\+D\+L\+\_\+\+Surface $\ast$}]{ecran,  }\item[{char}]{qus\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+To write the question . 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ecran} & \\
+\hline
+{\em qus} & the question \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+nothing 
+\end{DoxyReturn}

@@ -1,3 +1,11 @@
+/**
+* @file scrolling.c
+* @brief background scrolling.
+* @author X Team
+* @version 1
+* @date May 05, 2019
+*
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <SDL/SDL.h>
@@ -5,6 +13,13 @@
 #include <SDL/SDL_mixer.h>
 #include <SDL/SDL_ttf.h>
 #include"struct.h"
+/**
+* @brief To background scrolling .
+* @param evan main character
+* @param bckg background
+* @param collision
+* @return Nothing
+*/
 void scrolling (hero *evan,background *bckg,int co )
 {
 	 evan->heromoved=0;

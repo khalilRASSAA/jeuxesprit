@@ -1,3 +1,11 @@
+/**
+* @file pmap.c
+* @brief minimap.
+* @author X Team
+* @version 1
+* @date Apr 05, 2019
+*
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <SDL/SDL.h>
@@ -5,7 +13,11 @@
 #include <SDL/SDL_mixer.h>
 #include <SDL/SDL_ttf.h>
 #include"pmap.h"
-
+/**
+* @brief To initialize the minimap .
+* @param pmap the minimap
+* @return Nothing
+*/
 void initialiser_pmap(pmap *pmap){
 
 	pmap->afficher_pmap=NULL;
@@ -24,7 +36,13 @@ void initialiser_pmap(pmap *pmap){
 
 
 }
-
+/**
+* @brief To show the minimap .
+* @param pmap the minimap
+* @param ecran the screen 
+* @param mouvment left or right
+* @return Nothing
+*/
 void afficher_pmap(pmap *pmap,SDL_Surface *ecran,int mouvment){
 
 

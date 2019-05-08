@@ -1,0 +1,60 @@
+\hypertarget{scrolling_8c}{}\section{scrolling.\+c File Reference}
+\label{scrolling_8c}\index{scrolling.\+c@{scrolling.\+c}}
+
+
+background scrolling.  
+
+
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$S\+D\+L/\+S\+D\+L.\+h$>$}\newline
+{\ttfamily \#include $<$S\+D\+L/\+S\+D\+L\+\_\+image.\+h$>$}\newline
+{\ttfamily \#include $<$S\+D\+L/\+S\+D\+L\+\_\+mixer.\+h$>$}\newline
+{\ttfamily \#include $<$S\+D\+L/\+S\+D\+L\+\_\+ttf.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}struct.\+h\char`\"{}}\newline
+Include dependency graph for scrolling.\+c\+:
+% FIG 0
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{scrolling_8c_a1e139d0901ef0208c6e01fbff04a5104}{scrolling} (hero $\ast$evan, background $\ast$bckg, int co)
+\begin{DoxyCompactList}\small\item\em To background scrolling . \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+background scrolling. 
+
+\begin{DoxyAuthor}{Author}
+X Team 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+May 05, 2019 
+\end{DoxyDate}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{scrolling_8c_a1e139d0901ef0208c6e01fbff04a5104}\label{scrolling_8c_a1e139d0901ef0208c6e01fbff04a5104}} 
+\index{scrolling.\+c@{scrolling.\+c}!scrolling@{scrolling}}
+\index{scrolling@{scrolling}!scrolling.\+c@{scrolling.\+c}}
+\subsubsection{\texorpdfstring{scrolling()}{scrolling()}}
+{\footnotesize\ttfamily void scrolling (\begin{DoxyParamCaption}\item[{hero $\ast$}]{evan,  }\item[{background $\ast$}]{bckg,  }\item[{int}]{co }\end{DoxyParamCaption})}
+
+
+
+To background scrolling . 
+
+
+\begin{DoxyParams}{Parameters}
+{\em evan} & main character \\
+\hline
+{\em bckg} & background \\
+\hline
+{\em collision} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Nothing 
+\end{DoxyReturn}
